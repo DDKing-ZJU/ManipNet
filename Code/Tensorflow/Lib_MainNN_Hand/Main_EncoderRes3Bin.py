@@ -183,7 +183,7 @@ class MainNN(NeuralNetwork):
             avg_cost_train = 0
             for i in range(total_batch):
                 print('Progress', round(i / total_batch, 2), "%", end="\r")
-                index_train = I[i * batch_size:(i + 1) * batch_size]
+                index_train = I[i * batch_size : (i + 1) * batch_size]
                 batch_xs = self.input_data[index_train]
                 batch_ys = self.output_data[index_train]
                 feed_dict = {self.nn_X: batch_xs,

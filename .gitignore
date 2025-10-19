@@ -1,0 +1,17 @@
+/Code/Tensorflow/Data
+
+.vs
+
+*.meta
+
+Code/Unity/ManipNet/Library
+Code/Unity/ManipNet/obj
+Code/Unity/ManipNet/Temp
+Demo/
+
+Code/Unity/ManipNet/Assembly-CSharp-Editor-firstpass.csproj
+Code/Unity/ManipNet/Assembly-CSharp-Editor.csproj
+Code/Unity/ManipNet/Assembly-CSharp-firstpass.csproj
+Code/Unity/ManipNet/Assembly-CSharp.csproj
+Code/Unity/ManipNet/ManipNet.sln
+Code/Unity/ManipNet/.vs/ManipNet/v15/.suo
